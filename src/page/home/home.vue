@@ -1,16 +1,12 @@
 <template>
-  <article class="main">
+  <div class="main">
     <headTop headTitle="南京从容信息科技有限公司"></headTop>
     <section>
       <div class="banner">
-
-      </div>
-      <div class="task">
-
       </div>
     </section>
     <foot></foot>
-  </article>
+  </div>
 </template>
 
 <script>
@@ -19,7 +15,6 @@
   export default({
     data () {
       return {
-
       }
     },
     components:{
