@@ -1,8 +1,16 @@
 <template>
-  <div>
+  <article class="main">
     <headTop headTitle="南京从容信息科技有限公司"></headTop>
+    <section>
+      <div class="banner">
+
+      </div>
+      <div class="task">
+
+      </div>
+    </section>
     <foot></foot>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -22,5 +30,9 @@
 </script>
 
 <style>
-
+  .banner{
+    width: 100%;
+    height: 4rem;
+    background: #ccc;
+  }
 </style>

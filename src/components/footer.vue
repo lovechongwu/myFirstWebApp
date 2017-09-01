@@ -1,5 +1,5 @@
 <template>
-  <section class="footer">
+  <section class="foot">
     <ul>
       <li class="active">
         <router-link to="/">
@@ -34,7 +34,7 @@
 </script>
 
 <style lang="scss" scope>
-  .footer{
+  .foot{
     width: 100%;
     height: 1.2rem;
     position: fixed;
