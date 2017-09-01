@@ -4,6 +4,7 @@
     <span v-if="goBack" @click="$router.go(-1)">
       <i class="icon back"></i>
     </span>
+    <slot name=""></slot>
   </div>
 </template>
 
@@ -21,7 +22,7 @@
 <style lang="scss" scope>
   .headTop{
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #f1f1f1;
     height: 1.2rem;
     position: fixed;
     top: 0;
