@@ -1,5 +1,7 @@
 <template>
-  <foot></foot>
+  <div class="message">
+    <foot></foot>
+  </div>
 </template>
 
 <script>
@@ -16,6 +18,6 @@
   })
 </script>
 
-<style>
+<style lang="scss" scope>
 
 </style>

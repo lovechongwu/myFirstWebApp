@@ -37,6 +37,7 @@
 </script>
 
 <style lang="scss" scope>
+  @import "../style/mixin.scss";
   .loginDiv{
     width: 100%;
     height: 100%;
@@ -58,7 +59,7 @@
       color: #fff;
       -webkit-border-radius: 0.5rem;
       -moz-border-radius: .5rem;
-      border-radius: .5rem;
+      @inclued borderRadius(.5rem);
       background: -webkit-linear-gradient(left,#04b3fc,#0485fd) no-repeat;
       color: #fff;
       box-shadow: 0 0.08rem 0.16rem #90c7fa;
